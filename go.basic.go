@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"time"
-	"math/rand"
 	"math"
 	"math/cmplx"
+	"math/rand"
 	"runtime"
 	"strings"
+	"time"
 )
 
 // Execute the code:
@@ -19,12 +19,12 @@ import (
 
 var c, python, java bool
 
-func main() {
-	basic_go()
-	basic_types()
-	basic_flow()
-	advance_types()
-}
+//func main() {
+//	basic_go()
+//	basic_types()
+//	basic_flow()
+//	advance_types()
+//}
 
 func basic_go () {
 	fmt.Println("===== Begin: basic_go =====")
